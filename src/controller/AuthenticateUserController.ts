@@ -6,10 +6,12 @@ class AuthenticateUserController {
     const { code } = request.body;
 
     const service = new AuthenticateUserService();
-
-    const resute = await service.execute(code);
-
-    return response.json(resute);
+    try {
+      const result = await service.execute(code);
+      return response.json(result);
+    } catch (error) {
+      return response.json({ error: "Internal server error" });
+    }
   }
 }
 
