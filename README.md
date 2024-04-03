@@ -29,4 +29,4 @@ A aplicação estará disponível em [`localhost:4000`](http://localhost:4000).
 
 ## ℹ️ Informações Adicionais
 
-Para mais detalhes sobre o projeto e seu desenvolvimento, consulte a documentação do [Node.js](https://nodejs.org/) e [Prisma](https://www.prisma.io/).
+Para mais detalhes sobre o projeto e seu desenvolvimento, consulte a documentação do [Node.js](https://nodejs.org/) e [Prisma](https://www.prisma.io/)
